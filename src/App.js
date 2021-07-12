@@ -4,6 +4,7 @@ import './App.css';
 
 import { Users } from './User/Pages/Users';
 import { NewPlace } from "./Places/Pages/NewPlace";
+import { UserPlaces } from "./Places/Pages/UserPlaces";
 import { MainNavigation } from "./Shared/Navigation/MainNavigation";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Users />
+            </Route>
+            <Route path = "/:userId/places" exact>
+              <UserPlaces />
             </Route>
             <Route path="/places/new" exact>
               <NewPlace />
