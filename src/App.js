@@ -5,7 +5,7 @@ import './App.css';
 import { Users } from './User/Pages/Users';
 import { NewPlace } from "./Places/Pages/NewPlace";
 import { UserPlaces } from "./Places/Pages/UserPlaces";
-import { MainNavigation } from "./Shared/Navigation/MainNavigation";
+import { MainNavigation } from "./Shared/Components/Navigation/MainNavigation";
 
 function App() {
   return (

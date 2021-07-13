@@ -19,7 +19,6 @@ export const Users = () => {
     ]
     return (
         <>
-            <h2>User works!</h2>
             <UsersList items = {USERS} />
         </>
     )

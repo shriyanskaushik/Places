@@ -11,7 +11,7 @@ export const PlaceList = (props) => {
                 <Card>
                     <h2>No place found. Maybe create one</h2>
                     <button>Share Place</button>
-                </Card>
+                </Card> 
             </div>
         );
     }
