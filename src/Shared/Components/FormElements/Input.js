@@ -22,7 +22,7 @@ const inputReducer = (state, action) => {
 };
 
 export const Input = (props) => {
-    const [inputState, dispatch] = useReducer(inputReducer, {value: '', isValid: false, isTouch : false});
+    const [inputState, dispatch] = useReducer(inputReducer, {value: props.initialValue || '', isValid: props.initialValid || false, isTouch : false});
 
     const changeHandler = event => {
         dispatch({type:'CHANGE', val : event.target.value, validators : props.validators});
