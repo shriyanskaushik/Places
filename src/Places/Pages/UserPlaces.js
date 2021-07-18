@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from "react-router-dom";
 
 import { PlaceList } from '../Components/PlaceList';
-import Button from "../../Shared/Components/FormElements/Button";
 
 export const UserPlaces = () => {
 
@@ -21,7 +20,7 @@ export const UserPlaces = () => {
         },
         {
             id:'p2',
-            title:'Empire State Buliding',
+            title:'Emp. State Buliding',
             description:'One of the most famous skyscraper in the world!',
             imageURL:'https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/cb/4a/65.jpg',
             address : '20W 34th St, New York, NY 10001',
