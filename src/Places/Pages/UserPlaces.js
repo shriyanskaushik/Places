@@ -1,7 +1,8 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 
-import { PlaceList } from '../Components/PlaceList'
+import { PlaceList } from '../Components/PlaceList';
+import Button from "../../Shared/Components/FormElements/Button";
 
 export const UserPlaces = () => {
 
