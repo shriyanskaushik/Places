@@ -71,7 +71,7 @@ export const UpdatePlace = () => {
 
     const updatePlaceHandler = event => {
         event.preventDefault();
-        console.log(formState.inputs);
+        console.log(formState.input);
     };
 
     if(!identifiedPlace){
